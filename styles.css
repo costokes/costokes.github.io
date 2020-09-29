@@ -1,10 +1,39 @@
 body {
- background: grey;
+ background: lightpink;
  font-family:Helvetica;
 }
 
+.assignment {
+    background: lightgoldenrodyellow;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.assignment img {
+    width: 200px;
+    padding: 10px;
+
+}
+
 h1{
-    color: darkseagreen;
+    color: purple;
     text-align: center;
 
 }
+
+
+
+<!-- Persona  Assignment-->
+    <section class="assignment">
+        <a href="files/affinity-diagram.pdf"><img src="images/sophiaspersona.img..png"></a>
+        <section class="ass-details">
+            <a href="files/sophiaspersona.pdf"><h2>Persona: 3 Personas for managing money</h2></a>
+            <p>
+               A persona of a typical college student using our app for managing money.
+            </p>
+        </section>
+</section>
+    </body>
+</html>
